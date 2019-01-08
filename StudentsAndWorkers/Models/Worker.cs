@@ -13,5 +13,12 @@
         public int WeekSalary { get; }
 
         public int WorkHoursPerDay { get; }
+
+        // 10
+        public double MoneyPerHour()
+        {
+            var moneyPerDay = (double) WeekSalary / 7;
+            return moneyPerDay / WorkHoursPerDay;
+        }
     }
 }

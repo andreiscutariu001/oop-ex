@@ -25,10 +25,10 @@ namespace App
         // 8. Creem o clasa statica helper unde o sa scriem cod pt liste (afisat, gasit element, sortat)
         // 9. Creem o metoda de afisat studentii
         // 10. Creem o metoda de sortat studentii - o sa folisim buble sort
-        // 11. Afisam lista dupa ce am sortat studentii din nou
+        // 11. Adaugam metoda MoneyPerHour in clasa worker pe care o sa o folosim pt sortare.
         // 12. Creem o lista noua de workers
         // 13. TODO o metoda de afisat Workers
-        // 14. TODO o medoda de sortat Workers
+        // 14. TODO o medoda de sortat Workers.
         // 15. TODO o lista noua de tip Human. Adauga ambele liste in ea (workers and students)
         // 16. TODO o metoda noua de afisat lista de la pasul 15
         // 17. TODO o metoda noua de sortat Students
@@ -48,8 +48,6 @@ namespace App
 
             //10
             StudentsAndWorkersListHelper.Sort(students);
-
-            //11
             StudentsAndWorkersListHelper.Print(students);
 
             //12
