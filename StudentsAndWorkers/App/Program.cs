@@ -84,7 +84,7 @@ namespace App
             {
                 for (int j = 0; j < students.Count; j++)
                 {
-                    if (students[i].Grade < students[j].Grade)
+                    if (students[i] < students[j])
                     {
                         aux = students[i];
                         students[i] = students[j];
